@@ -40,7 +40,6 @@ else
     Console.WriteLine("Не корректное число");
 }*/
 
-
 Console.WriteLine("Введите число от 1 до 7: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
