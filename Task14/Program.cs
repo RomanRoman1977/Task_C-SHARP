@@ -2,7 +2,7 @@
 на вход число и проверяет кратно ли оно 7 и 23
 14 - нет
 46 - нет
-161 - до*/
+161 - да*/
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
