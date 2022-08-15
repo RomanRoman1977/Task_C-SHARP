@@ -4,4 +4,4 @@
 782 - 72
 918 - 98*/
 
-
+int number = new Random().Next(10, 100);
