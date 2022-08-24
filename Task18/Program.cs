@@ -6,7 +6,7 @@
 Console.WriteLine("Введите номер четверти: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-string Del(int num)
+string QuartNum(int num)
 {
     if (num == 1) return "Значение переменных: x > 0, y > 0";
     if (num == 2) return "Значение переменных: x < 0, y > 0";
@@ -14,6 +14,6 @@ string Del(int num)
     if (num == 4) return "Значение переменных: x > 0, y < 0";
     return "Введена некорректная четверть";
 }
-string result = Del(number);
+string result = QuartNum(number);
 Console.WriteLine(result);
 
