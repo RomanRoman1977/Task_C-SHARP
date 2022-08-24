@@ -4,16 +4,16 @@
 координат точек в этой четверти (x и y)*/
 
 Console.WriteLine("Введите номер четверти: ");
-int num = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-string Del(int number)
+string Del(int num)
 {
-    if (number == 1) return "x = от 1 до N, y = от 1 до N";
-    if (number == 2) return "x = от 1 до N, y = от -1 до -N";
-    if (number == 3) return "x = от -1 до -N, y = от -1 до -N";
-    if (number == 4) return "x = от 1 до N, y = от -1 до -N";
+    if (num == 1) return "Значение переменных: x > 0, y > 0";
+    if (num == 2) return "Значение переменных: x < 0, y > 0";
+    if (num == 3) return "Значение переменных: x < 0, y < 0";
+    if (num == 4) return "Значение переменных: x > 0, y < 0";
     return "Введена некорректная четверть";
 }
-string result = Del(num);
+string result = Del(number);
 Console.WriteLine(result);
 
