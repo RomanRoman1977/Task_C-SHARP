@@ -16,7 +16,4 @@ else if(num / 1000 == ((num % 10 * 10) + ((num % 100 - num % 10) / 10)))
 {
   Console.WriteLine("Это число палиндром");
 }
-else if (num / 1000 != ((num % 10 * 10) + ((num % 100 - num % 10) / 10)))
-{
-  Console.WriteLine("Это число не палиндром");
-}
+else Console.WriteLine("Это число не палиндром");
