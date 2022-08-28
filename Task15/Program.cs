@@ -14,31 +14,13 @@ if (num >= 1 && num <= 7)
 {
     switch (num)
     {
-        case 1:
+        case 1: case 2: case 3: case 4: case 5:
             day = "нет, это не выходной день недели.";
             break;
-        case 2:
-            day = "нет, это не выходной день недели.";
-            break;
-        case 3:
-            day = "нет, это не выходной день недели.";
-            break;
-        case 4:
-            day = "нет, это не выходной день недели.";
-            break;
-        case 5:
-            day = "нет, это не выходной день недели.";
-            break;
-        case 6:
-            day = "да, это выходной день недели!";
-            break;
-        case 7:
+        case 6: case 7:
             day = "да, это выходной день недели!";
             break;
     }
     Console.WriteLine(day);
 }
-else
-{
-    Console.WriteLine("Введено некорректное число");
-}
+else Console.WriteLine("Введено некорректное число");
