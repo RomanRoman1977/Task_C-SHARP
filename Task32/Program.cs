@@ -28,7 +28,7 @@ int[] ChangePosNeg(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = array[i] * -1;
+        array[i] = array[i] * -1; // или можно так - array[i] = - array[i];
     }
     return array;
 }
