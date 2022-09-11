@@ -25,7 +25,7 @@ int[] GreateArrayRndInt(int size, int min, int max)
 void PrintArray(int[] array)
 {
     Console.Write("[");
-    for (int i = 0; i < array.Length - 1; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (i < array.Length - 1) Console.Write(array[i] + ",");
     }
@@ -43,6 +43,6 @@ int[] CalcArr(int[] arr)
     {
         resArr[i] = arr[i] * arr[arr.Length - 1 - i];
     }
-    if (arr.Length % 2 != 0) resArr[resArr.Length - 1] = arr[size - 1];
+    if (arr.Length % 2 != 0) resArr[resArr.Length - 1] = arr[size];
     return resArr;
 }
